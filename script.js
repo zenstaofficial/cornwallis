@@ -5,7 +5,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     var password = document.getElementById('password').value;
 
     // ここでサーバーサイドにリクエストを送信し、認証を行います
-    // 以下はサーバーサイドの例（Node.jsを使用）
+    node server.js
 
     fetch('/authenticate', {
         method: 'POST',

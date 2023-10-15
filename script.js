@@ -17,7 +17,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     .then(response => response.json())
     .then(data => {
         if (data.authenticated) {
-            window.location.href = 'http://他のサイトのURL'; // 認証成功時のリダイレクト先
+            window.location.href = 'https://zenstaofficial.github.io/cornwallis/ghards.html'; // 認証成功時のリダイレクト先
         } else {
             alert('認証エラー');
         }

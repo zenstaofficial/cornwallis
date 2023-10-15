@@ -17,7 +17,7 @@ document.getElementById('signupForm').addEventListener('submit', function(event)
         .then(data => {
             if (data.success) {
                 alert('アカウントが作成されました');
-                // 他のサイトにリダイレクトなどの処理を追加
+                window.location.href = 'https://zenstaofficial.github.io/cornwallis/ghards.html';
             } else {
                 alert('アカウントの作成に失敗しました');
             }
